@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #0C325A;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+  font-size: 0.7em;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+}
+/* HEADER */
