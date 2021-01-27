@@ -37,7 +37,7 @@ nav ul li {
   padding-top: 10px;
 }
 
-nav ul li a {
+a {
   text-decoration: none;
   color: white;
 }
@@ -69,3 +69,35 @@ nav ul li a {
   clear: both;
 }
 /* HEADER */
+
+/* JUMBO */
+.bg-jumbo {
+  background-image: url("../img/background-header.png");
+  height: 450px;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.row{
+  padding-top: 130px;
+}
+
+.text-jumbo {
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.btn-jumbo {
+ font-size: 14px;
+ border-radius: 5px;
+ padding: 20px;
+ background-color: #7CBB02;
+
+}
+
+.btn-box {
+ margin-top: 50px;
+}
+/* JUMBO */
