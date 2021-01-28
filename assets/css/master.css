@@ -1,3 +1,4 @@
+/* LAYOUT */
 * {
   margin: 0;
   border: 0;
@@ -10,7 +11,9 @@
   margin: 0 auto;
 }
 
-/* HEADER */
+/* LAYOUT */
+
+/* HEADER-NAV */
 header {
   background-color: #0C325A;
 }
@@ -22,7 +25,7 @@ nav ul {
   vertical-align: middle;
 }
 
-img {
+.logo img {
   vertical-align: middle;
 }
 
@@ -37,7 +40,7 @@ nav ul li {
   padding-top: 10px;
 }
 
-a {
+ul a {
   text-decoration: none;
   color: white;
 }
@@ -68,18 +71,18 @@ a {
   display: table;
   clear: both;
 }
-/* HEADER */
+/* HEADER-NAV */
 
 /* JUMBO */
 .bg-jumbo {
   background-image: url("../img/background-header.png");
-  height: 450px;
+  height: 480px;
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.row{
+.box{
   padding-top: 130px;
 }
 
@@ -94,10 +97,91 @@ a {
  border-radius: 5px;
  padding: 20px;
  background-color: #7CBB02;
-
+ text-decoration: none;
+ color: white;
 }
 
 .btn-box {
  margin-top: 50px;
 }
 /* JUMBO */
+
+/* MAIN-SECTION-1 */
+.bg-gray {
+  text-align: center;
+  background-color: #D3D3D3;
+}
+
+.bg-gray h1{
+  color: black;
+  margin-bottom: 15px;
+}
+
+.row-gray {
+  padding: 40px 0;
+}
+/* MAIN-SECTION-1 */
+
+/* MAIN-SECTION-2 */
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class^="col-"]{
+  float: left;
+}
+
+/* width columns */
+.col-100{
+  width: 100%;
+}
+.col-33{
+  width: calc(100% / 3);
+}
+
+/* width columns */
+.img-left{
+  background-image: url('../img/profile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-center{
+  background-image: url('../img/computer.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-right{
+  background-image: url('../img/doc.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* MAIN-SECTION-2 */
+
+/* UTILITY */
+.text-gray{
+  color: #838383;
+}
+.mt-1 {
+  margin-top: 1em;
+}
+/* UTILITY */
+.col-33 img {
+  height: 180px;
+  display:block;
+  margin: 0px auto;
+  text-align:center;
+}
