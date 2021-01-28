@@ -139,35 +139,11 @@ ul a {
 }
 .col-33{
   width: calc(100% / 3);
+  text-align:center;
+  line-height: 1.4;
 }
 
 /* width columns */
-.img-left{
-  background-image: url('../img/profile.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 170px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.img-center{
-  background-image: url('../img/computer.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 170px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.img-right{
-  background-image: url('../img/doc.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 170px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 /* MAIN-SECTION-2 */
 
@@ -175,13 +151,34 @@ ul a {
 .text-gray{
   color: #838383;
 }
+
+.text-green {
+  color: #7CBB02;
+}
+
 .mt-1 {
   margin-top: 1em;
 }
+
+.fz-1 {
+  font-size: 18px;
+}
 /* UTILITY */
 .col-33 img {
-  height: 180px;
+  height: 160px;
   display:block;
   margin: 0px auto;
   text-align:center;
+}
+
+.col-center {
+  padding: 0 20px;
+}
+
+.col-left {
+  padding-right: 60px;
+}
+
+.col-right {
+  padding-left: 60px
 }
